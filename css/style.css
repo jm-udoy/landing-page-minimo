@@ -1,0 +1,265 @@
+
+@font-face{
+	font-family: PlayfairDisplay-Regular ;
+	src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face{
+	font-family: Ubuntu-Light ;
+	src: url(../fonts/Ubuntu-Light.ttf);
+}
+
+/*common css*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #626262;
+
+}
+/*common css*/
+
+/*header start*/
+header{
+	padding: 25px 0;
+	/*border: 1px solid;*/
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: 1px solid;*/
+}
+.logo{
+	float: left;
+	width: 13%;
+	/*border: 1px solid red;*/
+}
+.logo a{}
+.logo a img{
+	width: 100%;
+}
+.menu{
+	float: right;
+	width: 65%;
+	/*border: 1px solid red;*/
+}
+.menu ul{
+	list-style: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	margin: 0px 50px;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	color: #626262;
+}
+.menu ul li a:hover{
+	color: #090909;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+/*header end*/
+
+/*banner start*/
+.banner_wrapper{
+	margin: 60px 0;
+	/*border: 1px solid;*/
+}
+.banner_wrapper img{
+	width: 100%;
+}
+/*banner end*/
+
+
+/*photo_dairy start*/
+.pd_wrapper{
+	width: 90%;
+    margin: 0 auto;
+}
+.pd_wrapper h3{
+	font-family: Ubuntu-Light;
+	font-size: 18px;
+	font-weight: 300;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+.pd_wrapper h2{
+	font-size: 35px;
+}
+.pd_wrapper p{}
+.pd_wrapper h3:last-child{
+	margin-top: 60px;
+}
+/*photo_dairy end*/
+
+/*lifestyle start*/
+.lifestyle_wrapper1{
+	width: 45%;
+	float: left;
+}
+.lifestyle_wrapper2{
+	width: 45%;
+	float: right;
+}
+.l_img{
+	margin-top: 120px;
+	/*border: 1px solid;*/
+}
+.l_img img{
+	width: 100%;
+}
+.l_text{}
+.l_text h3{
+	margin-top: 30px;
+	margin-bottom: 0;
+}
+.l_text h2{
+	margin-top: 15px;
+}
+.l_text p{}
+/*lifestyle end*/
+
+/*news start*/
+.news{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+	margin-top: 120px
+}
+.signup{
+	text-align: center;
+}
+.s_h1{
+	color: #333333;
+	font-size: 32px;
+	margin-top: 0;
+	margin-bottom: 70px;
+}
+.s_form{                 
+	position: relative;  
+	width: 400px;
+	/*border: 1px solid red;*/
+	margin: 0 auto;
+}
+.s_form input{
+	font-family: PlayfairDisplay-Regular;
+	font-size: 16px;
+	color: #626262;
+	width: 345px;
+	height: 45px;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: transparent;
+	padding-left: 5px;
+	padding-right: 45px;
+}
+.s_form input:focus{
+	outline: 0;
+}
+.s_form button{
+	position: absolute;
+	background: transparent;
+	border: none;
+	cursor: pointer;
+	top: 15px;
+	right: 0;
+}
+.s_form button:focus{
+	outline: 0;
+}
+.s_form button img{}
+/*news end*/
+
+/*load_more start*/
+.load{
+	position: relative;
+	padding: 170px 0;
+}
+.load_button{
+	position: absolute;
+	width: 160px;
+	height: 60px;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 20px;
+	color: #626262;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+/*load_more end*/
+
+/*footer start*/
+footer{
+	background-color: #f0f0f0;
+}
+.f_wrapper{
+	width: 80%;
+	padding: 20px 0;
+	margin: 0 auto;
+	/*border: 1px solid;*/
+}
+
+.f_left{
+	width: 30%;
+	/*border: 1px solid red;*/
+	display: inline-block;
+}
+.f_left ul{
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+}
+.f_left ul li{
+	float: left;
+	/*border: 1px solid blue;*/
+	margin-right: 20px;
+}
+.f_left ul li:last-child{
+	margin-right: 0;
+}
+.f_left ul li a{
+	text-decoration: none;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 16px;
+	color: #000000;
+}
+.f_left ul li a:hover{
+	color: #626262;
+}
+
+.f_right{
+	float: right;
+	width: 30%;
+	/*border: 1px solid red;*/
+}
+.f_right ul{
+	float: right;
+	list-style: none;
+	padding: 0;
+	overflow: hidden;
+}
+.f_right ul li{
+	float: left;
+	/*border: 1px solid blue;*/
+	margin-right: 20px;
+}
+.f_right ul li:last-child{
+	margin-right: 0;
+}
+.f_right ul li a{
+	text-decoration: none;
+	font-family: PlayfairDisplay-Regular;
+	font-size: 16px;
+	color: #000000;
+}
+.f_right ul li a:hover{
+	color: #626262;
+}
+/*footer end*/
